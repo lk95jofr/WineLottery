@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contestantView"
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:paddingRight="5dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/runLottery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:text="@string/run_button"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/activity_run"
+        android:paddingRight="5dp" />
+
+</LinearLayout>

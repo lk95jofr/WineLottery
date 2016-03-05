@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WineLottery</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_button">Lägg till</string>
+    <string name="run_button">Spela</string>
+    <string name="title_activity_lottery">LotteryActivity</string>
+</resources>
